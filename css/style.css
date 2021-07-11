@@ -1,0 +1,28 @@
+body{
+margin: 2% auto;
+text-align: center;
+}
+
+div {
+   
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+display: inline-block;
+margin: 3%;
+padding: 2%;
+width: 20%;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.5rem;
+    font-weight: normal;
+    color: #B5CDA3;
+    text-align: center;
+    margin: 7% auto;
+    line-height: 50px;
+
+  }
+
+ul {
+    text-align: left;
+}
