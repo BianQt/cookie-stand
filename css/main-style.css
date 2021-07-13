@@ -1,0 +1,145 @@
+body{
+    text-align: center;
+}
+h1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2.5rem; 
+}
+h3 {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #E48900;
+}
+p {
+    font-size: 1.5rem;
+     text-align: center;
+     padding: 0 7%;
+     font-family: arial;
+}  
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin:0 ;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+li {
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 20px ;
+     float: right;
+}
+header {
+    background-color: #BE0000;
+      color: #fff;
+      padding: 1rem; 
+      font-size: 1.3rem;   
+}
+.logo{
+    border: 10px double #F7EA00;
+    border-radius: 100%;
+    width: 500px;
+    height: 120px;
+    margin: 10px 20px ;
+    display: inline-block;
+}
+main {
+    margin: 40px ;
+    height: 5000px;
+
+}
+.top-container {
+      color: #F7EA00;
+      position: relative;
+}
+.intro-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8rem;
+    font-weight: lighter;
+    width: 1800px;
+    margin: 0;
+  }
+.intro-img{
+   width: 100%;
+   height: auto;
+}
+.breaks{
+    height: 30px;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #BE0000;
+    
+}
+.about, .cookies {
+    margin: 70px 0;
+
+}
+.about-tit, .cookies-tit, .shops-tit {
+    font-size: 4rem;
+    color: #BE0000;
+    margin: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+}
+.about-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 2px solid #E48900;
+    margin: 40px 50px;   
+}
+.col {
+    
+    margin: 40px 15px;
+}
+.col-tit {
+    color: #F7EA00;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+.cookies-img{
+    width: 400px;
+    height: 400px;
+    margin: 20px 50px;
+    border-radius: 100%;
+}
+.shops{
+    margin-top: 70px;
+}
+.col2 {
+    display: inline-block;
+    width: 30%;
+    margin: 40px 15px;
+    box-shadow: rgba(207, 19, 19, 0.4) 0px 2px 4px, rgba(221, 224, 35, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 0 0 50px;
+}
+.col2 p {
+    text-align: left;
+}
+footer {
+    background-color: #BE0000;
+    height: 100px;
+    color: #F7EA00;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
