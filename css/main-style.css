@@ -127,7 +127,7 @@ main {
     display: inline-block;
     width: 30%;
     margin: 40px 15px;
-    box-shadow: rgba(207, 19, 19, 0.4) 0px 2px 4px, rgba(221, 224, 35, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(207, 19, 19, 0.4) 0px 2px 4px, #BE0000 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     padding: 0 0 50px;
 }
 .col2 p {
