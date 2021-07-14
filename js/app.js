@@ -154,3 +154,32 @@ for (let i = 0; i < locations.length; i++) {
 
 tableFooterRender();
 
+
+let form = document.getElementById('form');
+ form.addEventListener('submit', submission);
+
+ function submission(event){
+ event.preventDefault();
+ let location = event.target.location.value;
+ let min = event.target.minCus.value;
+ let max = event.target.maxCus.value;
+ let avg = event.target.avgCookies.value;
+
+ let elementId = document.getElementById('sales');;
+ elementId.textContent = ' ';
+ 
+ 
+ tableHeaderRender(); 
+
+ let newShop = new Sales(location,min,max,avg);
+
+ for (let i = 0; i < locations.length; i++) {
+    locations[i].randomCustomerNumber();
+    locations[i].avgCookies();
+    locations[i].render();
+}
+tableFooterRender();
+ 
+console.log( location, min, max, avg)
+
+ }
