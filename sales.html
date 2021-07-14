@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,12 +25,54 @@
           </ul>
       </header>
     <main>
+      <div class="col-50">
+      <form id="form">
+        <fieldset>
+          <div class="row">
+            <div class="col-25">
+            <label for="location">Location :</label>
+            </div>
+            <div class="col-75">
+            <input type="text" name="location" id="location">
+            </div>
+          </div> 
+          <div class="row">
+            <div class="col-25"> 
+              <label for="minCust">Min / Cust :</label>
+            </div>
+            <div class="col-75">
+               <input type="number" name="minCus" id="minCus">
+            </div>
+        </div> 
+          <div class="row">
+            <div class="col-25">
+              <label for="maxCust">Max / Cust :</label>
+            </div>
+            <div class="col-75">  
+              <input type="number" name="maxCus" id="maxCus"> 
+            </div>
+          </div>    
+          <div class="row">
+            <div class="col-25">
+              <label for="avgCookies">Avg Cookie / Sale :</label>
+            </div>
+           <div class="col-75">
+              <input type="text" name="avgCookies" id="avgCookies">
+            </div>
+          </div>
+          <input type="submit" value="Save">
+        </fieldset>
+      </form>
+    </div>
+    <div class="col-50">
+      <img src="img/join.jpg" alt="" class="join-img">
+    </div>
         <div id="sales"></div>
-        <div id="seattle"></div>
+        <!-- <div id="seattle"></div>
         <div id="tokyo"></div>
         <div id="dubai"></div>
         <div id="paris"></div>
-        <div id="lima"></div>
+        <div id="lima"></div> -->
 
     </main>
     <footer>
