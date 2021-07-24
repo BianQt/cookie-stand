@@ -161,9 +161,9 @@ let form = document.getElementById('form');
  function submission(event){
  event.preventDefault();
  let location = event.target.location.value;
- let min = event.target.minCus.value;
- let max = event.target.maxCus.value;
- let avg = event.target.avgCookies.value;
+ let min = Number(event.target.minCus.value);
+ let max = Number(event.target.maxCus.value);
+ let avg = Number(event.target.avgCookies.value);
 
  let elementId = document.getElementById('sales');;
  elementId.textContent = ' ';
@@ -180,6 +180,6 @@ let form = document.getElementById('form');
 }
 tableFooterRender();
  
-console.log( location, min, max, avg)
+console.log( location, min, max, avg, newShop, seattle)
 
  }

@@ -58,8 +58,8 @@ header {
     display: inline-block;
 }
 main {
-    margin: 40px ;
-    height: 5100px;
+    margin: 40px 0 ;
+    height: 4400px;
 
 }
 .top-container {
@@ -81,45 +81,74 @@ main {
    width: 100%;
    height: auto;
 }
+
 .breaks{
     height: 30px;
     width: 80%;
     margin: 40px auto;
     background-color: #BE0000;
-    
 }
-.about, .cookies {
+.about {
     margin: 70px 0;
 
 }
+.cookies {
+    background-color:#BE0000 ;
+padding: 70px 0 150px;
+}
 .about-tit, .cookies-tit, .shops-tit {
-    font-size: 4rem;
+    font-size: 6rem;
     color: #BE0000;
-    margin: 20px;
+    margin: 20px 20px 40px;
     font-family: 'Anton', sans-serif;
     font-weight: normal;
 }
+.cookies-tit{
+    color: #F7EA00;  
+}
 .about-img{
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     border-radius: 100%;
     border: 2px solid #E48900;
     margin: 40px 50px;   
 }
 .col {
-    
     margin: 40px 15px;
+    text-align: left;
+}
+.middle-col{
+    margin: 150px 0 80px 0;
 }
 .col-tit {
     color: #F7EA00;
-    font-family: 'Anton', sans-serif;
-    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    margin-bottom: 10px;
 }
 .cookies-img{
-    width: 400px;
-    height: 400px;
+    float: left;
+    width: 350px;
+    height: 350px;
     margin: 20px 50px;
     border-radius: 100%;
+}
+
+.right{
+    float: right;
+}
+.col p {
+    text-align: left;
+    color: rgb(248, 244, 179);
+    font-size: 1.5rem;
+    
+}
+.middle-col h3{
+    margin-left: 117.34px;
+}
+.middle-col p{
+    width: 55%;
+    display: inline-block;
 }
 .fa, .fas {
     font-size: 2rem;
